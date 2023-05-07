@@ -26,6 +26,39 @@ After applying different Machine Learning algorithms, we get different model acc
 
 Thus, the Decision tree regression algorithm gave us the best accuracy and score on the training dataset in comparison with other algorithms.
 
+## Usage
+
+1. Docker:
+
+Clone this repository,
+
+build docker image from from Dockerfile in the main directory. 
+
+$docker build -t my2ndcar .
+
+then run 
+
+$docker run -p 5000:5000 -it --name My2ndCar my2ndcar
+
+2. System:
+
+Clone this repository, 
+
+then install requirements
+
+$pip install -r requirements.txt
+
+to run
+
+$python3 app.py
+
+make sure you are in main directory.
+
+
+
 ## Application Preview
 
 ![image](https://user-images.githubusercontent.com/86619476/157186601-7f0db898-06ad-4a93-9fc6-a8ccf5d3b81f.png)
+
+
+### Thank You!
