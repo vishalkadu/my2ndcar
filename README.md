@@ -55,10 +55,4 @@ $python3 app.py
 make sure you are in main directory.
 
 
-
-## Application Preview
-
-![image](https://user-images.githubusercontent.com/86619476/157186601-7f0db898-06ad-4a93-9fc6-a8ccf5d3b81f.png)
-
-
 ### Thank You!
